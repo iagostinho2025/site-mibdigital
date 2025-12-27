@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MIB Digital - Soluções Educacionais e Musicais</title>
+    <title>MIB Digital - Tecnologia que Inspira</title>
     <meta name="description" content="Desenvolvimento de aplicativos focados em educação e música. Conheça o CNH Fácil e o Hinos CCB Play.">
     
+    <meta property="og:title" content="MIB Digital - Apps Educativos">
+    <meta property="og:description" content="Conheça o CNH Fácil e Hinos CCB Play. Tecnologia que ensina e inspira.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/3067/3067260.png"> 
+	<link rel="icon" type="image/png" href="favicon.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
@@ -13,40 +19,49 @@
 </head>
 <body>
 
+    <div class="bg-blur purple"></div>
+    <div class="bg-blur green"></div>
+
     <header>
         <div class="container header-content">
             <div class="logo">MIB Digital<span class="dot">.</span></div>
-            <a href="mailto:contato@mibdigital.com.br" class="btn-contato">Fale Conosco</a>
+            <a href="mailto:mibdigital.contato@gmail.com" class="btn-contato">Fale Conosco</a>
         </div>
     </header>
 
     <section class="hero">
         <div class="container">
             <h1>Tecnologia que <br><span class="highlight">ensina e inspira.</span></h1>
-            <p class="subtitle">Desenvolvemos aplicativos intuitivos para educação no trânsito e apreciação musical.</p>
+            <p class="subtitle">Desenvolvimento de aplicativos modernos e intuitivos. Nossas soluções digitais conectam, ensinam e simplificam o seu dia.</p>
         </div>
     </section>
 
-    <section class="apps-grid container">
+<section class="apps-grid container">
         
         <div class="card-app">
-            <div class="icon-app cnh-color">🚗</div>
-            <h3>CNH Fácil</h3>
-            <p>Simulados atualizados, estudo por temas e modo desafio para sua aprovação no Detran.</p>
-            <div class="links-app">
-                <a href="https://cnh.mibdigital.com.br" class="btn-acessar">Acessar App Web</a>
+            <div class="card-glow cnh-glow"></div>
+            <div class="icon-box cnh-bg">🚗</div>
+            <div class="card-content">
+                <h3>CNH Fácil</h3>
+                <p>Simulados, estudo de placas e desafios diários. A ferramenta completa para te auxiliar na prova do Detran.</p>
+                <div class="links-app">
+                    <a href="https://cnh.mibdigital.com.br" target="_blank" rel="noopener noreferrer" class="btn-acessar btn-cnh">Acessar Web App</a>
                 </div>
-            <a href="https://cnh.mibdigital.com.br/privacidade.html" class="link-privacidade">Política de Privacidade</a>
+                <a href="https://cnh.mibdigital.com.br/privacidade.html" target="_blank" rel="noopener noreferrer" class="link-privacidade">Política de Privacidade</a>
+            </div>
         </div>
 
         <div class="card-app">
-            <div class="icon-app ccb-color">🎵</div>
-            <h3>Hinos CCB Play</h3>
-            <p>Player completo de hinos, organização por hinários e recursos de reprodução avançados.</p>
-            <div class="links-app">
-                <a href="https://hinos.mibdigital.com.br" class="btn-acessar">Acessar App Web</a>
+            <div class="card-glow ccb-glow"></div>
+            <div class="icon-box ccb-bg">🎵</div>
+            <div class="card-content">
+                <h3>Hinos CCB Play</h3>
+                <p>Player avançado de hinos com organização por hinários, favoritos e reprodução contínua.</p>
+                <div class="links-app">
+                    <a href="https://hinosccb.mibdigital.com.br" target="_blank" rel="noopener noreferrer" class="btn-acessar btn-ccb">Acessar Web App</a>
+                </div>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="link-privacidade">Política de Privacidade</a>
             </div>
-            <a href="#" class="link-privacidade">Política de Privacidade</a>
         </div>
 
     </section>
@@ -54,7 +69,7 @@
     <footer>
         <div class="container">
             <p>&copy; 2025 MIB Digital. Todos os direitos reservados.</p>
-            <p class="footer-email">contato@mibdigital.com.br</p>
+            <p class="footer-email">mibdigital.contato@gmail.com</p>
         </div>
     </footer>
 
