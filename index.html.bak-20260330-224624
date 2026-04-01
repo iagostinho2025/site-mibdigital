@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Tabuada Mestre - Aprenda Brincando</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -391,16 +391,13 @@
                     <p>O uso deste aplicativo deve ser encarado como um complemento aos estudos e não substitui o ensino formal.</p>
                     
                     <h3>2. Política de Privacidade</h3>
-                    <p>
-                        Este aplicativo não coleta dados pessoais, não utiliza geolocalização e não exibe anúncios de terceiros.
-                        Seu progresso, estrelas, avatares comprados e recordes são armazenados apenas localmente no dispositivo.
-                    </p>
-                    <p>
-                        Política completa:
-                        <a href="https://tabuadamestre.mibdigital.com.br/privacy-policy.html" target="_blank" rel="noopener noreferrer">
-                            https://tabuadamestre.mibdigital.com.br/privacy-policy.html
-                        </a>
-                    </p>
+                    <p>Respeitamos sua privacidade. A transparência é nossa prioridade:</p>
+                    <ul>
+                        <li><strong>Dados Pessoais:</strong> Este aplicativo <strong>não coleta</strong> dados pessoais como nome, email, telefone ou CPF.</li>
+                        <li><strong>Localização:</strong> Não utilizamos serviços de geolocalização (GPS).</li>
+                        <li><strong>Armazenamento:</strong> Todo o seu progresso, estrelas, avatares comprados e recordes são salvos localmente no seu próprio dispositivo. Se você desinstalar o app ou limpar os dados, esse progresso será perdido.</li>
+                        <li><strong>Anuncios:</strong> Esta versao nao exibe anuncios de terceiros nem utiliza SDK de anuncios.</li>
+                    </ul>
                     <p>Ao utilizar o Tabuada Mestre, você concorda com estes termos.</p>
                 </div>
             </div>
@@ -525,18 +522,6 @@
             <button id="btn-home-resultado" class="btn-menu neutro">Menu Inicial</button>
         </div>
 
-        <div id="modal-jogo" class="oculto" role="dialog" aria-modal="true" aria-labelledby="modal-jogo-titulo">
-            <div class="modal-jogo-backdrop" id="modal-jogo-backdrop"></div>
-            <div class="modal-jogo-card">
-                <h3 id="modal-jogo-titulo">Confirmar acao</h3>
-                <p id="modal-jogo-mensagem">Mensagem</p>
-                <div class="modal-jogo-acoes">
-                    <button id="modal-jogo-cancelar" class="btn-modal-jogo btn-modal-secundario">Cancelar</button>
-                    <button id="modal-jogo-confirmar" class="btn-modal-jogo btn-modal-primario">OK</button>
-                </div>
-            </div>
-        </div>
-
     </div> 
 
     <script src="audio.js"></script> 
@@ -550,5 +535,3 @@
     </script>
 </body>
 </html>
-
-
